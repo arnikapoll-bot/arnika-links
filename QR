@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arnika Links</title>
+    <style>
+        body { font-family: Arial, sans-serif; background: #f8f9fa; text-align: center; padding: 50px; }
+        h1 { color: #d32f2f; }
+        p { color: #555; font-size: 18px; }
+        a { color: #1976d2; text-decoration: none; font-weight: bold; }
+        a:hover { text-decoration: underline; }
+        .links { margin-top: 30px; }
+        .links a { display: block; margin: 10px 0; font-size: 20px; }
+    </style>
+</head>
+<body>
+    <h1>به صفحه لینک‌های آرنیکا خوش آمدید</h1>
+    <p>در اینجا می‌توانید به همه صفحات و محصولات ما دسترسی داشته باشید:</p>
+
+    <div class="links">
+        <a href="#">صفحه محصولات</a>
+        <a href="#">درباره ما</a>
+        <a href="#">تماس با ما</a>
+    </div>
+
+    <p>&copy; 2025 Arnika Saffron</p>
+</body>
+</html>
