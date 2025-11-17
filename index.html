@@ -1,29 +1,90 @@
 <!DOCTYPE html>
-<html lang="fa">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Arnika Links</title>
     <style>
-        body { font-family: Arial, sans-serif; background: #f8f9fa; text-align: center; padding: 50px; }
-        h1 { color: #d32f2f; }
-        p { color: #555; font-size: 18px; }
-        a { color: #1976d2; text-decoration: none; font-weight: bold; }
-        a:hover { text-decoration: underline; }
-        .links { margin-top: 30px; }
-        .links a { display: block; margin: 10px 0; font-size: 20px; }
+        /* Reset & Body */
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            background: #fff; 
+            text-align: center; 
+            padding: 60px 20px; 
+            color: #333;
+        }
+
+        /* Heading */
+        h1 { 
+            color: #8B0000; /* زرشکی */
+            font-size: 36px; 
+            margin-bottom: 15px; 
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+        }
+        p { 
+            color: #555; 
+            font-size: 18px; 
+            margin-bottom: 40px; 
+        }
+
+        /* Link Container */
+        .links { 
+            display: flex; 
+            flex-direction: column; 
+            align-items: center; 
+            gap: 20px; 
+        }
+
+        /* Links */
+        .links a { 
+            display: inline-block; 
+            padding: 15px 30px; 
+            background-color: #8B0000; /* زرشکی */
+            color: #fff; 
+            text-decoration: none; 
+            border-radius: 12px; 
+            font-weight: bold; 
+            font-size: 18px;
+            box-shadow: 0 4px 15px rgba(139,0,0,0.3);
+            transition: all 0.3s ease;
+            width: 250px;
+            text-align: center;
+        }
+
+        .links a:hover { 
+            background-color: #a60000; 
+            transform: translateY(-3px) scale(1.05);
+            box-shadow: 0 8px 20px rgba(139,0,0,0.4);
+        }
+
+        /* Footer */
+        footer { 
+            margin-top: 50px; 
+            color: #8B0000; 
+            font-size: 14px; 
+        }
+
+        /* Responsive */
+        @media (max-width: 500px) {
+            h1 { font-size: 28px; }
+            .links a { width: 90%; padding: 12px 0; font-size: 16px; }
+        }
     </style>
 </head>
 <body>
-    <h1>به صفحه لینک‌های آرنیکا خوش آمدید</h1>
-    <p>در اینجا می‌توانید به همه صفحات و محصولات ما دسترسی داشته باشید:</p>
+    <h1>Arnika Contact & Social Links</h1>
+    <p>Connect with us through the following channels:</p>
 
     <div class="links">
-        <a href="#">صفحه محصولات</a>
-        <a href="#">درباره ما</a>
-        <a href="#">تماس با ما</a>
+        <a href="https://arnika.ae" target="_blank">Website</a>
+        <a href="https://www.instagram.com/arnika.ae?igsh=MWd3bHdhMDE1NnZldA==" target="_blank">Instagram</a>
+        <a href="https://www.tiktok.com/@arnika.uae?_r=1&_t=ZS-91Sx3wkQtGy" target="_blank">TikTok</a>
+        <a href="https://www.snapchat.com/add/arnika.ae?share_id=PQ5cphZQqAM&locale=en-GB" target="_blank">Snapchat</a>
+        <a href="mailto:info@arnika.ae">Mail</a>
+        <a href="https://wa.me/message/ZGIA75EIPBNEK1" target="_blank">Whatsapp</a>
     </div>
 
-    <p>&copy; 2025 Arnika Saffron</p>
+    <footer>&copy; 2025 Arnika Saffron</footer>
 </body>
 </html>
