@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Arnika Links</title>
+
+    <!-- Font Awesome برای آیکن‌ها -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-KyZXEAg3QhqLMpG8r+Knujsl5+5hb7V5T9E7oTpiOwTR8H2Zc6K5Xk1kPcqz1+9i/5E5lQ4+1ZlKMEKpH6Ww==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <style>
-        /* Reset & Body */
-        * { box-sizing: border-box; margin: 0; padding: 0; }
         body { 
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
             background: #fff; 
@@ -15,20 +17,19 @@
             color: #333;
         }
 
-        /* Heading */
         h1 { 
             color: #8B0000; /* زرشکی */
             font-size: 36px; 
             margin-bottom: 15px; 
             text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
         }
+
         p { 
             color: #555; 
             font-size: 18px; 
             margin-bottom: 40px; 
         }
 
-        /* Link Container */
         .links { 
             display: flex; 
             flex-direction: column; 
@@ -36,9 +37,11 @@
             gap: 20px; 
         }
 
-        /* Links */
         .links a { 
-            display: inline-block; 
+            display: flex; 
+            align-items: center; 
+            justify-content: center;
+            gap: 12px;
             padding: 15px 30px; 
             background-color: #8B0000; /* زرشکی */
             color: #fff; 
@@ -58,7 +61,6 @@
             box-shadow: 0 8px 20px rgba(139,0,0,0.4);
         }
 
-        /* Footer */
         footer { 
             margin-top: 50px; 
             color: #8B0000; 
@@ -77,12 +79,12 @@
     <p>Connect with us through the following channels:</p>
 
     <div class="links">
-        <a href="https://arnika.ae" target="_blank">Website</a>
-        <a href="https://www.instagram.com/arnika.ae" target="_blank">Instagram</a>
-        <a href="https://www.tiktok.com/@arnika.uae" target="_blank">TikTok</a>
-        <a href="https://www.snapchat.com/add/arnika.ae" target="_blank">Snapchat</a>
-        <a href="mailto:info@arnika.ae">Mail</a>
-        <a href="https://wa.me/message/ZGIA75EIPBNEK1" target="_blank">Whatsapp</a>
+        <a href="https://arnika.ae" target="_blank"><i class="fas fa-globe"></i> Website</a>
+        <a href="https://www.instagram.com/arnika.ae" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+        <a href="https://www.tiktok.com/@arnika.uae" target="_blank"><i class="fab fa-tiktok"></i> TikTok</a>
+        <a href="https://www.snapchat.com/add/arnika.ae" target="_blank"><i class="fab fa-snapchat-ghost"></i> Snapchat</a>
+        <a href="mailto:info@arnika.ae"><i class="fas fa-envelope"></i> Mail</a>
+        <a href="https://wa.me/message/ZGIA75EIPBNEK1" target="_blank"><i class="fab fa-whatsapp"></i> Whatsapp</a>
     </div>
 
     <footer>&copy; 2025 Arnika Saffron</footer>
